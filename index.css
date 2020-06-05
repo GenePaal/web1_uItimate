@@ -1,0 +1,302 @@
+.head-background {
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+}
+
+.head {
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo-text {
+    float: left;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.nav-background {
+    float: left;
+    width: 400px;
+    padding: 40px 0 0 80px;
+}
+
+.nav li {
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    color: black;
+    height: 26px;
+    width: 50px;
+    border-bottom: 2px none;
+}
+
+.nav a:hover {
+    color: #555;
+    border-bottom: 2px solid #555;
+    background-color: #cfcfcf;
+}
+
+.search-background {
+    float: left;
+    margin: 36px 0 0 60px;
+    width: 230px;
+    height: 50px;
+}
+
+.button {
+    cursor: pointer;
+    vertical-align: bottom;
+    height: 30px;
+    width: 30px;
+    background-image: url(imgs/1.png);
+    border: solid 1px #555;
+    float: left;
+}
+
+.input {
+    float: left;
+    height: 26px;
+}
+
+.quick-login {
+    float: left;
+    width: 300px;
+    height: 78px;
+    float: right;
+}
+
+.login form {
+    height: 80px;
+}
+
+.table-font {
+    font-size: 12px;
+    text-align: center;
+}
+
+.submit input {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.register {
+    padding-left: 50px;
+}
+
+.register a {
+    color: #000;
+}
+
+.register a:hover {
+    color: rgb(248, 163, 4);
+}
+
+.banner {
+    width: 1000px;
+    height: 400px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.tucap, .tucao li {
+    width: 1000px;
+    height: 400px;
+}
+
+.tucao li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-item {
+    background: url(imgs/4.jpg) no-repeat center center;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    right: 10%;
+}
+
+.text {
+    width: 1000px;
+    height: 800px;
+    margin: 30px auto;
+    border: #cfcfcf solid 1px;
+}
+
+.title {
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-family: consolas;
+}
+
+.title a {
+    display: inline-block;
+    height: 42px;
+    line-height: 30px;
+    color: #555;
+    border-bottom: 2px none;
+    font-size: 30px;
+}
+
+.title a:hover {
+    display: inline-block;
+    height: 40px;
+    line-height: 30px;
+    color: orange;
+    border-bottom: 2px rgb(248, 163, 4) solid;
+    font-size: 30px;
+}
+
+.information {
+    width: 1000px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.information ul {
+    float: left;
+    margin: 20px 0 0 200px;
+    width: 600px;
+    height: 60px;
+}
+
+.information li {
+    float: left;
+    color: #999;
+}
+
+.li-1, .li-2 {
+    border-right: #999 solid 1px;
+    padding: 0 50px;
+}
+
+.li-3 {
+    padding-left: 50px;
+}
+
+.information a {
+    display: inline-block;
+    color: #999;
+    border-bottom: 1px none;
+}
+
+.information a:hover {
+    color: #000;
+    border-bottom: #000 solid 1px;
+}
+
+.script {
+    width: 800px;
+    padding-left: 100px;
+}
+
+.wenzhang {
+    padding-top: 30px;
+    line-height: 30px;
+    text-indent: 2em;
+    font-size: 20px;
+}
+
+.seeAll {
+    height: 100px;
+}
+
+.seeAll button {
+    height: 40px;
+    width: 120px;
+    margin: 50px 0 0 280px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.seeAll button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.foot-background {
+    height: 140px;
+    background-color: #f5f5f5;
+    width: 100%;
+    transition-duration: 0.5s
+}
+
+.foot {
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+    padding: 30px 0 0 500px;
+}
+
+.foot-font1, .foot-font2, .foot-font3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.site {
+    color: orangered;
+}
+
+.site:hover {
+    color: orchid;
+}
+
+
+
+.tableOfContents {
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 150px;
+    height: 400px;
+    background-color: #cfcfcf;
+}
+
+.tableOfContents p{
+    display: block;
+    margin-top:  20px;
+    text-align: center;
+}
+.tableOfContents ul{
+    margin-top: 10px;
+    padding-left: 30px;
+
+}
+
+.tableOfContents li{
+    width: 150px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.tableOfContents a{
+    color: #000;
+    border-bottom: 1px none;
+}
+
+.tableOfContents a:hover{
+    color:orange;
+    border-bottom: orange 1px solid;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Designed By GenePaal</title>
+</head>
+
+<body>
+    <div class="head-background">
+        <div class="head">
+            <div class="logo">
+                <p class="logo-text">GenePaal's Blog</p>
+            </div>
+            <div class="nav-background">
+                <ul class="nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">标签</a></li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">归档</a></li>
+                </ul>
+            </div>
+            <div class="search-background">
+                <form >
+                    <input type="text" placeholder="内容/标题/标签/分类" class="input">
+                    <input type="button" class="button">
+                </form>
+            </div>
+            <div class="quick-login">
+                <form >
+                    <table>
+                        <caption>
+                            <p>快速登录</p>
+                        </caption>
+                        <tr>
+                            <td width="40" align="center" class="table-font">User-ID</td>
+                            <td><input type="text" name="username" /></td>
+                        </tr>
+                        <tr>
+                            <td width="40" align="right" class="table-font">PassWord</td>
+                            <td><input type="password" name="password1" /></td>
+                        </tr>
+                        <tr>
+                            <td class="submit"><input type="submit" value="Sign in" name="login"></td>
+                            <td class="register"><a href="#">注册</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="tableOfContents">
+            <p>目录</p>
+            <ul>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+            </ul>
+        </div>
+
+        <ul class="tucao">
+            <li class="banner-item"></li>
+            <li class="banner-item"></li>
+            <li class="banner-item"></li>
+        </ul>
+        <img class="next" src="imgs/next.png" alt="">
+        <img class="prev" src="imgs/prev.png" alt="">
+    </div>
+    <div class="container">
+
+    </div>
+    <div class="text">
+        <p class="title"><a href="#">html、css_basicKonwledge</a> </p>
+        <div class="information">
+            <ul>
+                <li class="li-1">发表于 : 2020/6/5</li>
+                <li class="li-2">标签 : <a href="#">前端</a></li>
+                <li class="li-3">分类于 : <a href="#">前端</a></li>
+            </ul>
+        </div>
+        <div class="script">
+            <h2>CSS基础知识</h2>
+            <div class="wenzhang">
+
+                css 选择器
+
+                css选择器就是用来在样式中获取到对应的元素，从而设置相关样式的
+                基本选择器
+
+                标签选择器：div{}获取到页面中所有的div标签
+                id选择器: #box{}获取到页面中id为box的盒
+
+                注意：页面中元素可以设置ID属性，属性值是唯一的（理论上），但是ID相同不会报错，只是不符合W3C规范：如果想获取页面中指定的某一个元素，则用ID选择器会更快捷准确
+
+
+                样式类名选择器：.box{}获取页面中class='box'的元素
+
+
+                样式类选择器特点：
+
+                不论标签，想要获取哪些元素，只要让他们拥有共同的class值，这样都可以基于样式类选择器获取到（简单、粗暴、明了）；他是真实项目中最常用的选择器
+
+
+                群组选择器:div,.box{} div和样式类为box的具备共同样式
+                通配符选择器：*{} 页面中所有的标签
+                结构选择器
+
+                后代选择器：.box a{} 获取样式类名为box，它后代元素中所有的a
+                子代选择器： .box>a{} 获取样式类名为box，它儿子元素中所有的a
+                弟弟选择器： .box+a{} 获取样式类名为box，它下一个弟弟并且是a的元素（最后获取的是a）
+                同级筛选选择器：.box a.line{}获取样式类名为box，它后代元素中所有的a，并且这个a得有line这个样式
+
+
+                伪类选择器
+
+                结构伪类选择器
+
+                :nth-child(1) 获取当前容器儿子中的第一个
+                :nth-of-type(1) 和nth-child类似，但是它按照分组来选
+                :not() 除了某某某
+
+
+                动态伪类选择器
+
+                :hover 鼠标滑过
+                :active 鼠标按下
+            </div>
+            <div class="seeAll">
+                <button>阅读全文>></button>
+            </div>
+        </div>
+    </div>
+    <div class="foot-background">
+        <div class="foot">
+            <p class="foot-font1">©2020&nbsp&nbsp&nbsp&nbsp冀ICP备000&nbsp&nbsp&nbsp&nbsp版权所有</p>
+            <p class="foot-font2">转载请说明出处，本文链接:&nbsp&nbsp&nbsp<a class="site" href="#">http://www.xxx.cn/</a></p>
+            <p class="foot-font3">Designed&nbspBy&nbspGenePaal</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
